@@ -11,8 +11,6 @@ terraform {
 
 provider "aws" {
   region  = var.region
-   assume_role {
-    role_arn = "arn:aws:iam::407900233407:role/gw-accountautomation-role"
-  }
+  
 }
 
