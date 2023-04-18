@@ -5,6 +5,12 @@ terraform {
       version = ">=3.42.0"
     }
   }
+  cloud {
+    organization = "manoterraformtraining"
+    workspaces {
+      name= "hashicat-aws"
+    }
+  }
 }
 
 
